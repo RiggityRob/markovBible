@@ -1,6 +1,8 @@
 import markovify
 from pathlib import Path
 
+#requires pip install of markovify
+
 files = Path("bible/").iterdir()
 
 for file in files:
